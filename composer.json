@@ -1,0 +1,22 @@
+{
+    "name": "chprof/php-testing-goal-capitalize",
+    "description": "",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "APP\\": "src/"
+        },
+        "files": [
+            "src/StringUtils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "credo-creative-studio-study",
+            "email": "credo.creative.creative.study@gmail.com"
+        }
+    ],
+    "require": {
+        "webmozart/assert": "^1.10"
+    }
+}
